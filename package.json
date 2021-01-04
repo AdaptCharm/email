@@ -1,0 +1,30 @@
+{
+  "name": "@adaptcharm/email",
+  "description": "Sends emails & renders templates.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jamie Isaksen",
+    "email": "jamie@jamie.no"
+  },
+  "license": "UNLICENSED",
+  "main": "email.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+      "url": "git@github.com:AdaptCharm/email.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "ejs": "^2.6.1",
+    "glob": "^7.1.4",
+    "html-minifier": "^4.0.0",
+    "html-to-text": "^5.1.1",
+    "juice": "^5.2.0",
+    "mailgun-js": "^0.22.0",
+    "postmark": "^2.2.6"
+  }
+}
